@@ -1,0 +1,24 @@
+section.skill {
+    margin-top: -14rem;
+    .container {
+        .card {
+            border: none;
+            box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+            transition: 0.3s;
+            .card-body {
+                svg {
+                    color: $pure-blue;
+                    font-size: 3rem;
+                    margin: 3rem 0;
+                }
+                .card-subtitle {
+                    color: $pure-blue;
+                    margin-top: 1.5rem;
+                }
+            }
+        }
+        .card:hover {
+            box-shadow: 1px 1px 8px 0 rgba(46,61,73,.8);
+        }
+    }
+}

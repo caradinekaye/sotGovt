@@ -1,0 +1,173 @@
+/**
+ * @file _fonts.scss
+ *
+ * Fonts used in the project
+ * */
+/**
+ * Example font import:
+ * */
+/*
+@include font-face('RealtimeStencil', font-files('30669F_0_0.woff', '30669F_0_0.woff2', '30669F_0_0.ttf',
+										'30669F_0_0.svg'), '30669F_0_0.eot', bold, normal);
+*/
+/**
+ * The default font stack.
+ * */
+/**
+ * Font config:
+ * - Update with the values output.
+ * */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+.Header {
+  padding-top: 3rem;
+  margin: 0; }
+
+nav.navbar {
+  margin-top: 2rem; }
+  nav.navbar .container .navbar-header .navbar-brand .logo {
+    width: 60px; }
+  nav.navbar .container .navbar-nav .btn {
+    border-radius: 25px;
+    border: #119DCB solid 2px;
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+    padding: 0.25rem 2rem;
+    transition: 0.3s; }
+    nav.navbar .container .navbar-nav .btn .contact-link {
+      color: #119DCB;
+      text-decoration: none;
+      font-size: 1.25rem; }
+  nav.navbar .container .navbar-nav .btn:hover {
+    background-color: #119DCB;
+    box-shadow: 1px 1px 5px 0 rgba(46, 61, 73, 0.8); }
+    nav.navbar .container .navbar-nav .btn:hover .contact-link {
+      color: #fff; }
+
+section.project {
+  margin-bottom: 10rem;
+  margin-top: 6rem; }
+  section.project .container .btn-group-toggle {
+    display: flex; }
+    section.project .container .btn-group-toggle .filter {
+      margin: 1rem; }
+  section.project .container .project-group .row .project-item .project-grid {
+    margin: 0.75rem 0;
+    position: relative;
+    transition: 0.8s;
+    border-radius: 15px; }
+    section.project .container .project-group .row .project-item .project-grid .project-thumbnail {
+      border-radius: 15px;
+      transition: 0.25s; }
+    section.project .container .project-group .row .project-item .project-grid figcaption {
+      position: absolute;
+      top: 1.5rem;
+      display: none;
+      transition: 0.8s; }
+      section.project .container .project-group .row .project-item .project-grid figcaption .title {
+        color: #fff;
+        font-size: 1.25rem;
+        padding: 0 1rem; }
+      section.project .container .project-group .row .project-item .project-grid figcaption .btn {
+        color: #fff;
+        font-size: 1.25rem;
+        margin-top: 1rem;
+        padding: 0.45rem 1.5rem;
+        border-radius: 25px;
+        border: #119DCB solid 2px; }
+        section.project .container .project-group .row .project-item .project-grid figcaption .btn .icon {
+          margin-left: 0.75rem; }
+      section.project .container .project-group .row .project-item .project-grid figcaption .btn:hover {
+        background-color: #119DCB; }
+  section.project .container .project-group .row .project-item .overlay {
+    border-radius: 15px;
+    background-color: #2b3b4c;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: 0.6s; }
+  section.project .container .project-group .row .project-grid:hover .project-thumbnail {
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.8); }
+  section.project .container .project-group .row .project-grid:hover figcaption {
+    display: block;
+    z-index: 2; }
+  section.project .container .project-group .row .project-grid:hover .overlay {
+    opacity: 0.8; }
+
+section.skill {
+  margin-top: -14rem; }
+  section.skill .container .card {
+    border: none;
+    box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.2);
+    transition: 0.3s; }
+    section.skill .container .card .card-body svg {
+      color: #119DCB;
+      font-size: 3rem;
+      margin: 3rem 0; }
+    section.skill .container .card .card-body .card-subtitle {
+      color: #119DCB;
+      margin-top: 1.5rem; }
+  section.skill .container .card:hover {
+    box-shadow: 1px 1px 8px 0 rgba(46, 61, 73, 0.8); }
+
+section.message {
+  background-color: #119DCB; }
+  section.message .container {
+    padding: 0.25rem 0; }
+    section.message .container .message-body {
+      margin-top: -4rem;
+      padding: 2.25rem 3rem;
+      border-radius: 10px;
+      background-color: #2b3b4c;
+      box-shadow: 5px 5px 25px 0 rgba(46, 61, 73, 0.5);
+      color: #fff;
+      transition: 0.3s; }
+      section.message .container .message-body .massage-item .btn {
+        color: #fff;
+        border: #119DCB solid 2px;
+        border-radius: 15px;
+        padding: 1rem 2rem; }
+      section.message .container .message-body .massage-item .btn:hover {
+        background-color: #119DCB; }
+    section.message .container .message-body:hover {
+      box-shadow: 1px 1px 4px 0 rgba(46, 61, 73, 0.8); }
+
+footer {
+  background-color: #119DCB;
+  padding: 2rem 0; }
+  footer .container {
+    margin-bottom: 0; }
+    footer .container .logo {
+      padding-bottom: 2rem; }
+    footer .container .row .col .title {
+      color: #fff; }
+    footer .container .social-icons .field .btn {
+      background: transparent;
+      color: #fff;
+      border: #f9f1f1 solid 2px;
+      border-radius: 50%;
+      font-size: 1.4rem;
+      margin: 2rem; }
+    footer .container .social-icons .field .btn:hover {
+      background-color: #fff;
+      color: #119DCB; }
+    footer .container .copyright {
+      color: #fff; }
+
+section.intro {
+  background-color: #119DCB; }
+  section.intro .container .row {
+    padding: 5rem 1.5rem 16rem 1.5rem; }
+    section.intro .container .row h3, section.intro .container .row p {
+      color: #fff; }

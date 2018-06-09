@@ -1,0 +1,33 @@
+nav.navbar {
+    margin-top: 2rem;
+    .container {
+        .navbar-header {
+            .navbar-brand {
+                .logo {
+                    width: 60px;
+                }
+            }
+        }
+        .navbar-nav {
+            .btn {
+                border-radius: 25px;
+                border: $pure-blue solid 2px;
+                box-shadow: 5px 5px 25px 0 rgba(46,61,73,.2);
+                padding: 0.25rem 2rem;
+                transition: 0.3s;
+                .contact-link {
+                    color: $pure-blue;
+                    text-decoration: none;
+                    font-size: 1.25rem;
+                }
+            }
+            .btn:hover {
+                background-color: $pure-blue;
+                box-shadow: 1px 1px 5px 0 rgba(46,61,73,.8);
+                .contact-link {
+                    color: #fff;
+                }
+            }
+        }
+    }
+}

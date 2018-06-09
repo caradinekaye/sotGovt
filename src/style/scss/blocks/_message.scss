@@ -1,0 +1,32 @@
+section.message {
+    background-color: $pure-blue;
+    .container {
+        padding: 0.25rem 0;
+        .message-body {
+            margin-top: -4rem;
+            padding: 2.25rem 3rem;
+            border-radius: 10px;
+            background-color: $dark-gray;
+            box-shadow: 5px 5px 25px 0 rgba(46,61,73,.5);
+            color: #fff;
+            transition: 0.3s;
+
+            .massage-item {
+
+                .btn {
+                    color: #fff;
+                    border: $pure-blue solid 2px;
+                    border-radius: 15px;
+                    padding: 1rem 2rem;
+                }
+                .btn:hover {
+                    background-color: $pure-blue;
+                }
+            }
+        }
+        .message-body:hover {
+            box-shadow: 1px 1px 4px 0 rgba(46,61,73,.8);
+        }
+
+    }
+}

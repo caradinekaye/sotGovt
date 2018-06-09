@@ -1,0 +1,24 @@
+/**
+ * @file _fonts.scss
+ *
+ * Fonts used in the project
+ * */
+
+/**
+ * Example font import:
+ * */
+/*
+@include font-face('RealtimeStencil', font-files('30669F_0_0.woff', '30669F_0_0.woff2', '30669F_0_0.ttf',
+										'30669F_0_0.svg'), '30669F_0_0.eot', bold, normal);
+*/
+
+
+/**
+ * The default font stack.
+ * */
+$default_font_family: Helvetica, Arial, sans-serif;
+
+/**
+ * Font config:
+ * - Update with the values output.
+ * */

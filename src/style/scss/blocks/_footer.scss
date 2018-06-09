@@ -1,0 +1,41 @@
+
+footer {
+    background-color: $pure-blue;
+    padding: 2rem 0;
+    .container {
+        margin-bottom: 0;
+        .logo {
+            padding-bottom: 2rem;
+        }
+        .row {
+            .col {
+                .title {
+                    color: #fff;
+                }
+            }
+        }
+        .social-icons {
+            .field {
+                  .btn {
+                      background: transparent;
+                      color: #fff;
+                      border: #f9f1f1 solid 2px;
+                      border-radius: 50%;
+                      font-size: 1.4rem;
+                      margin: 2rem;
+                      .span {
+                          .fa-fw {
+                          }
+                      }
+                  }
+                  .btn:hover {
+                      background-color: #fff;
+                      color: $pure-blue;
+                  }
+              }
+          }
+        .copyright {
+            color: #fff;
+        }
+    }
+}
